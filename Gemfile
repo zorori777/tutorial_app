@@ -14,6 +14,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'faker', '~> 1.6.6'
+  gem 'rails-controller-testing'
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
