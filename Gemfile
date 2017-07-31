@@ -11,6 +11,9 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.6.1'
 
 group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'faker', '~> 1.6.6'
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
@@ -20,3 +23,12 @@ group :development do
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
 end
+
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'launchy'
+  gem 'poltergeist'
+
+end
+
